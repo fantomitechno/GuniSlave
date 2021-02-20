@@ -1,4 +1,3 @@
-const bypass = ["528340380064677891","585864257569292299", "563749920683720709","685846994027020361"]
 module.exports = async(client, message) => {
     let prefix = client.config.prefix
     if (message.author.bot) return
